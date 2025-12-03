@@ -1,0 +1,9 @@
+services:
+  host:
+    build: .
+    container_name: broadcast_data_host
+    ports:
+      - "8888:8888/udp"
+      - "8000:8000/tcp"
+    volumes:
+      - ./uploads:/app/uploads
