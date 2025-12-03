@@ -6,4 +6,4 @@ services:
       - "8888:8888/udp"
       - "8000:8000/tcp"
     volumes:
-      - ./uploads:/app/uploads
+      - ./uploads:/app/uploads # ./uploads - folder to store data
